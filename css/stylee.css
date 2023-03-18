@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(13, 8, 32);
+}
+
+.navbar ul li .active{
+    border-radius: 50px;
+    border: solid rgb(69, 194, 239) 1px;
+    color:rgb(69, 194, 239) !important;
+}
+.navbar ul li a:hover{
+    border-radius: 50px;
+    border: solid rgb(69, 194, 239) 1px; 
+    color:rgb(69, 194, 239) !important;
+
+}
+.nav-cap{
+    font-size: 8px;
+    text-align: center;
+}
+.home{
+    background-image: url(../imag/banner.png);
+    height: 60vh;
+}
+.search{
+border: none ;
+background-color: rgb(13, 8, 32) !important;
+color: white !important;
+}
+.search::placeholder{
+    color: white;
+}
+.find{
+    left: 80%;
+   top: 56px;
+   border-radius: 20px;
+ padding: 7px 30px;
+}
+.card{
+    --bs-card-border-radius:none;
+}
+
+footer .container{
+    top: 180px;;
+    margin-left: 50px;
+}
+footer input{
+    background-color: rgb(11, 2, 54) !important;
+    border: none !important;
+    color: white !important;
+
+}
+input::placeholder{
+    color: white !important;
+}
+.subscribe{
+    top: 58px;
+    left: 530px;
+    border-radius: 30px;
+}
+footer i{
+    cursor: pointer;
+}
+.card{
+    background-color: rgb(11, 2, 54) !important;
+color: white;
+width: 400px;
+margin-top: 50px;
+
+}
+.card-header{
+    background-color: rgb(13, 8, 32);
+
+}
+.cards .center,.cards .center .card-header{
+    background-color: rgb(18, 14, 34) !important;
+
+}
+#firstCard h1{
+    font-size: 90px;
+}
